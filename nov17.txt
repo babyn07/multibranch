@@ -1,0 +1,17 @@
+node
+{
+    stage "1. create folder"   
+    sh "mkdir -p scripted-pipeline "
+
+    stage "2. create file"   
+    sh "touch simple.txt "
+
+    stage "3. view date"   
+    sh "date "
+
+    stage "4. view files"   
+    sh "ls -lrts "
+    
+    stage "5. list files"   
+    sh "ls "
+}
